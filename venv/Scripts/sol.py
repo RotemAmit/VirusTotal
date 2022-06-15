@@ -75,7 +75,6 @@ def makeRequest(hashFile):
 	else:
 		return json_response
 
-
 def checkHasKey():
 	global key
 	if key == "":
